@@ -132,7 +132,7 @@ class AiTasksTool(
     suspend fun run() {
         val referenceFilePaths = findFilesRecursively(
             rootDirectoryPath = projectPath,
-            pattern = "AI.do",
+            pattern = "AI.ref",
         )
 
         val taskFilePaths = findFilesRecursively(
