@@ -10,4 +10,4 @@ pluginManagement {
 rootProject.name = "GptTools"
 
 include("tool_utils")
-include("generate_matchers_tool")
+include("run_ai_tasks_tool")
